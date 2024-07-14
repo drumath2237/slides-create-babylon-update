@@ -45,15 +45,33 @@ hideInToc: true
 - Babylon.js勉強会運営
 - Iwaken Lab.
 
-好きなこと
+好きなもの
 
-- Babylon.js, WebXR Device API
+- Babylon.js
+- WebXR Device API
 - Unity C#
+
+SNS
+
+
+- <uim-twitter-alt /> [@ninisan_drumath](https://x.com/ninisan_drumath)
+- <uim-github-alt /> [@drumath2237](https:github.com/drumath2237)
 
 ::right::
 
 <img src="https://pbs.twimg.com/profile_images/1113849253548269568/4uy_K_LA_400x400.png" class="rounded shadow m-30 h-60"/>
 
+---
+hideInToc: true
+---
+
+# 本日の話
+
+- create-babylon-appの開発進捗について共有
+- Babylon.jsの話はほぼ出てきません（おい）
+
+---
+hideInToc: true
 ---
 
 # アジェンダ
@@ -68,33 +86,85 @@ layout: section
 
 ---
 level: 2
----
-
-# 本日の話
-
----
-level: 2
+layout: two-cols
 ---
 
 # create-babylon-app とは
 
+- Babylon.jsのプロジェクトを簡単に作成するためのCLI
+- コマンドラインから質問に答えるとプロジェクトができ、そのまま開発できる手軽さが売り
+
+お手元のターミナルでぜひ試してみてください！<twemoji-backhand-index-pointing-down />
+
+```txt
+npm create babylon-app
+```
+
+GitHub: https://github.com/drumath2237/create-babylon-app
+
+<style>
+code.language-txt{
+  font-size: 1.2rem
+}
+</style>
+
+::right::
+
+<img src="/run.png" class="m-10" />
+<img src="/run-web.png" class="m-10" />
+
 ---
 level: 2
+layout: two-cols
+---
+
+<Tweet id="1676571182483800064" scale="0.75" />
+
+::right::
+
+実は去年のゆるほめLTでも  
+発表していました。
+
+---
+level: 2
+layout: center
 ---
 
 # たまにフォーラムに反応があった
 
+<img src="/forum-reac.png" class="size-3/4">
+
 ---
 level: 2
+layout: two-cols-header
 ---
 
-# もしかしたら公式docsに載せてもらえ......なかった
+# もしかしたら公式ツールに載せて......もらえなかった
+
+::left::
+
+<img src="/docss.png" class="w-5/6">
+
+::right::
+
+公式docsに載ってるViteのサンプルが普通ではないフォルダ構造になっていて混乱したらしい。  
+公式の内容をこちらに置き換えないか？というポスト
+
+「正直なところこのツールは完璧とは程遠い」
+
+惜しい...！
 
 ---
 level: 2
 ---
 
 # ちゃんとメンテしよう
+
+- ある程度需要はある気がしてきた
+- ちゃんと作れば公式ツールになっちゃうかも！？
+- えいやとリリースしてからアプデできていなかった
+
+これらにより、開発のモチベが上がってきた
 
 ---
 layout: section

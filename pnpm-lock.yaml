@@ -8,6 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@iconify-json/twemoji':
+        specifier: ^1.1.15
+        version: 1.1.15
+      '@iconify-json/uim':
+        specifier: ^1.1.9
+        version: 1.1.9
       '@slidev/cli':
         specifier: ^0.49.16
         version: 0.49.16(@babel/parser@7.24.7)(@nuxt/kit@3.12.3(rollup@4.18.0))(@types/markdown-it@14.1.1)(@types/node@18.19.39)(@vue/compiler-sfc@3.4.31)(playwright-chromium@1.45.1)(postcss@8.4.39)(rollup@4.18.0)(vue-template-compiler@2.7.16)
@@ -362,6 +368,12 @@ packages:
 
   '@iconify-json/svg-spinners@1.1.2':
     resolution: {integrity: sha512-Aab6SqkORaTJ1W+ooufn6C8BsBitrn3uk8iRQLPA6pjhyvQAhkKCGMctyXIL5ZjrycnoFVsZ4mx7KnwEMra8qg==}
+
+  '@iconify-json/twemoji@1.1.15':
+    resolution: {integrity: sha512-ze2CAOwIWBKIP6ih6qMDItasVjRicktl2Qr3/ohZSMToAHm9z3Q6HCwE48eT0+D+uFpGBlNRQ22HHyE5izyhDg==}
+
+  '@iconify-json/uim@1.1.9':
+    resolution: {integrity: sha512-mV9Ps5WkLbPsk/Nztxye2TBCpEDIkeMtXXgYRgtfQve8kY0DkMF/je+YCvfd59IzXACZ6JwNAsPeF7fCYzPP+w==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -3098,6 +3110,14 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/svg-spinners@1.1.2':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/twemoji@1.1.15':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/uim@1.1.9':
     dependencies:
       '@iconify/types': 2.0.0
 
