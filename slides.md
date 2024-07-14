@@ -174,15 +174,31 @@ layout: section
 
 ---
 level: 2
+layout: two-cols
 ---
 
 # ｖ0.1.7のリリース
+
+- 依存パッケージのアプデ
+- Linter/FormatterをBiomeへ移行
+- CI/CDの改善
+
+などを行い、v0.1.7を先日リリース<twemoji-party-popper />  
+これにより作成できるプロジェクトがBabylon.js 7に対応したりした
+
+::right::
+
+<Tweet id="1809238774771273919" scale="0.65" />
 
 ---
 level: 2
 ---
 
 # Road to v1.0.0
+<br/>
+GitHub ProjectsのKanban上でタスク管理
+
+<img src="/kanban.png" />
 
 ---
 level: 2
