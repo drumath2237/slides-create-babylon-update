@@ -1,11 +1,7 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# ゆるほめLT vol.3スライド資料
 
-To start the slide show:
+[![Deploy](https://github.com/drumath2237/slides-create-babylon-update/actions/workflows/deploy.yml/badge.svg)](https://github.com/drumath2237/slides-create-babylon-update/actions/workflows/deploy.yml)
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
+## About
 
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev on [documentations](https://sli.dev/).
+Babylon.js勉強会主催 ゆるほめLT会 vol.3のスライド資料です。
