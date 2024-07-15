@@ -1,16 +1,11 @@
 ---
 # You can also start simply with 'default'
 theme: default
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-# some information about your slides (markdown enabled)
 title: |
   create-babylon-appを
   軽率にアプデしたい
-info: |
-  にー兄さん@ninisan_drumath
-  Babylon.jsゆるほめLT会 vol.3
-# apply unocss classes to the current slide
+info: Babylon.jsゆるほめLT会 vol.3での発表資料
+author: にー兄さん@drumath2237
 class: text-left
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
@@ -26,6 +21,10 @@ fonts:
   mono: JetBrains Mono
 layout: intro
 hideInToc: true
+download: true
+export:
+  dark: true
+exportFilename: update-create-babylon-app-slide
 ---
 
 # create-babylon-appを
