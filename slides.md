@@ -46,8 +46,8 @@ hideInToc: true
 
 好きなもの
 
-- Babylon.js/WebXR Device API/C#
-- ねこ/コーヒー/ウィスキー/ギター
+- Babylon.js / WebXR Device API / C#
+- ねこ / コーヒー / ウィスキー / ギター
 
 アカウント
 
@@ -136,7 +136,7 @@ level: 2
 layout: two-cols-header
 ---
 
-# もしかしたら公式ツールに載せて......もらえなかった
+# もしかしたら公式docsに載せて......もらえなかった
 
 ::left::
 
@@ -144,7 +144,8 @@ layout: two-cols-header
 
 ::right::
 
-公式docsに載ってるViteのサンプルが普通ではないフォルダ構造になっていて混乱したらしい。  
+公式docsに載ってるViteのサンプルが普通ではないフォルダ構造になっていて混乱したらしい。
+
 公式の内容をこちらに置き換えないか？というポスト
 
 「正直なところこのツールは完璧とは程遠い」
@@ -180,7 +181,8 @@ layout: two-cols
 - Linter/FormatterをBiomeへ移行
 - CI/CDの改善
 
-などを行い、v0.1.7を先日リリース<twemoji-party-popper />  
+などを行い、v0.1.7を先日リリース<twemoji-party-popper />
+
 これにより作成できるプロジェクトがBabylon.js 7に対応したりした
 
 ::right::
@@ -253,7 +255,7 @@ level: 2
 # おわりに
 
 - create-babylon-appをちゃんとメンテします（宣言）
-  - 色んな人にベンチに使ってもらえるような状況へ
+  - 色んな人に便利に使ってもらえるような状況へ
 - 7月末～8月上旬くらいに1.0リリースを目標に
 
 ---
