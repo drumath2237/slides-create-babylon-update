@@ -47,12 +47,10 @@ hideInToc: true
 
 好きなもの
 
-- Babylon.js
-- WebXR Device API
-- Unity C#
+- Babylon.js/WebXR Device API/C#
+- ねこ/コーヒー/ウィスキー/ギター
 
-SNS
-
+アカウント
 
 - <uim-twitter-alt /> [@ninisan_drumath](https://x.com/ninisan_drumath)
 - <uim-github-alt /> [@drumath2237](https:github.com/drumath2237)
@@ -204,7 +202,44 @@ GitHub ProjectsのKanban上でタスク管理
 level: 2
 ---
 
-# 更新したい部分
+# 対応したい項目たち
+
+1. より便利なテンプレートの追加
+2. UnJSパッケージへの移行
+3. コマンドライン引数の対応
+4. ドキュメントページの作成
+
+---
+level: 3
+layout: two-cols
+---
+
+## テンプレートの追加
+<br/>
+
+現状はPlayground準拠のTypeScript・JavaScript用テンプレしかない
+
+希望としては下記ラインナップにしたい
+
+- シンプルなテンプレート
+- Playground準拠テンプレート
+- Babylon.jsライブラリ開発テンプレート
+- コミュニティ提供テンプレート群
+  - WebXR用とかReact用とか...
+
+::right::
+
+## UnJSパッケージへの移行
+
+UnJSから提供されているCLI作成に便利なパッケージ群に移行したい
+
+- citty
+- consola
+- jiti
+- giget
+- unbuild
+
+<img src="https://unjs.io/favicon.svg" class="mt-10 w-[8rem]" />
 
 ---
 layout: section
@@ -216,12 +251,21 @@ layout: section
 level: 2
 ---
 
-# まとめ
+# おわりに
+
+- create-babylon-appをちゃんとメンテします（宣言）
+  - 色んな人にベンチに使ってもらえるような状況へ
+- 7月末～8月上旬くらいに1.0リリースを目標に
 
 ---
 level: 2
 ---
 
-# 参考
+# 関連・参考
 
-- some links
+- create-babylon-app（GitHub）  
+https://github.com/drumath2237/create-babylon-app
+- Kanban（GitHub Projects）  
+https://github.com/users/drumath2237/projects/13
+- create-babylon-app　v1.0に向けたアプデ作業（Zenn）  
+https://zenn.dev/drumath2237/scraps/b085d5f90b65f3
